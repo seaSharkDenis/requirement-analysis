@@ -118,3 +118,5 @@ A Use Case Diagram is a visual representation of a system's functionality from t
 1. Guest
 2. Host
 3. Admin
+
+![Use Case Diagram](booking-management-Use-Case-Diagram.png)
