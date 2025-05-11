@@ -67,3 +67,37 @@ Each activity in the Requirement Analysis process plays a crucial role in captur
 ### 5. Requirement Validation
   - This activity ensures that the documented requirements accurately represent the stakeholder's needs and are feasible, testable, and aligned with business objectives.
   - The goal is to confirm stakholder agreement and approval and verify correctness
+
+---
+
+## Types of Requirements
+
+Requirements define what a software system should do, how it should behanve, and the constraints under which it must operate.
+
+### Functional Requirements
+
+Functional requirements describe what the system should do. They define the core functions, features, and behavior of the software in response to specific inputs or user interactions.
+
+Examples of functional requirements
+  - The system should allow users to create and manage bookings.
+  - The system should allow a user to search for properties based on various criteria such as location, price, and availabilty.
+  - The user should provide secure login and registration process for users.
+  - The application must send a confirmation email after a successful payment.
+
+### Non-Functional Requirements
+
+Non-Functional Requirements describe how the system performs rather than what it does. These requirements relate to quality attributes, performance, security, and usability.
+
+**Examples of functinal requirements**
+  - The system should respond to user requests within 2 seconds.
+  - The software must support at least 1000 concurrent users.
+  - Data must be encryped during transfer and also in storage.
+
+Non-Functional requirements can be categorized into the following:
+  - **Performance**: Speed, response time, throughput
+  - **Scalability**: Ability to handle growing user loads
+  - **Security**: Authentication, data protection, access control
+  - **Usability**: User interface consistency, ease of use
+  - **Reliability & Availability**: Uptime, fault tolerance
+  - **Maintainability**: Ease of updating, modular structure
+  - **Portability**: Ability to run on various platforms or devices
