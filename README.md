@@ -101,3 +101,20 @@ Non-Functional requirements can be categorized into the following:
   - **Reliability & Availability**: Uptime, fault tolerance
   - **Maintainability**: Ease of updating, modular structure
   - **Portability**: Ability to run on various platforms or devices
+
+---
+
+## Use Case Diagrams
+
+A Use Case Diagram is a visual representation of a system's functionality from the user's perspective. It helps model how actors interact with the system and what the goals (use cases) they achieve.
+
+**Benefits of Use Case Diagrams**
+
+- Provide a clear visual representation of system functionalities.
+- Help in identifying and organizing system requirements.
+- Facilitate communication among stakeholders and development team.
+
+**Actors in our AirBnB project**
+1. Guest
+2. Host
+3. Admin
