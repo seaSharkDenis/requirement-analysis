@@ -16,3 +16,13 @@ Requirement Analysis is a critical phase in the software development lifecycle (
 1. **Foundation for Development** - Requirement analysis provided the blueprint for what needs to be built. Without a clear understanding of the system's purpose and scope, the software may not solve the intended problems or meet user expectations.
 2. **Reduce Cost and Rework** - Identifying requirements early helps catch inconsistencies, ambiguities, or misunderstandings before development begins. Changes made during the analysis phase are far less costly than those made during development or after deployment.
 3. **Drived Design and Testing** - Well-defined requirements influence system architecture and guide test case development. Acceptance criteria derived from requirements ensure that testing aligns with business needs.
+
+---
+
+## Why is Requirement Analysis Important?
+
+1. **Clarity and Understanding** - It helps in understanding what the stakeholders expect from the software, reducing ambiguity.
+2. **Scope Definition** - Clearly defines the scope of the project, which helps in preventing scope creep.
+3. **Basis for Design and Development** - Provides a solid foundation for designing and developing the system.
+4. **Cost and Time Estimation** - Facilitates accurate estimation of project cost, resources, and time.
+5. **Quality Assurance** - Ensures that the final product meets the specified requirements, leading to higher customer satisfaction.
