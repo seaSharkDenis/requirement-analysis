@@ -120,3 +120,44 @@ A Use Case Diagram is a visual representation of a system's functionality from t
 3. Admin
 
 ![Use Case Diagram](alx-booking-uc.png)
+
+---
+
+## Acceptance Criteraia
+
+Acceptance Criteria are a set of predefined conditions that a software feature or functionality must meet to be considered complete and acceptable by the product owner, client, or end user.
+
+**Importance of Acceptance Criteria**
+
+  - **Clarity of Scope**: Clearly defines what needs to be delivered for a requirement to be "done".
+  - **Basis for Testing**: Guides testers in creating test cases for verification and validation.
+  - **Improved Communication**: Aligns understanding between developers, clients, and QA teams.
+  - **Reduces Ambiguity**: Eliminates assumptions or vague requirements.
+
+**Example of Acceptance Criteria For Checkout Feature in Booking Management System**
+
+**Scenario**: User attempts to checkout without logging in
+  Given the user is not logged in
+  When the user attemtps to proceed to checkout
+  Then the system should redirect the user to the login page
+
+**Scenario**: Booking summary is displayed at checkout
+  Given the user is on the checkout page
+  Then the system should display the selected property details
+  And show the check-in and check-out dates
+  And display the total cost including feed and taxes
+
+**Scenario**: User enters invalid or incomplete paymen details
+  Given the user in on the checkout page
+  When the user enters invalid or incomplete payment details
+  And clicks "Pay Now"
+  Then the system should display an error message
+  And prevent the transaction from proceeding
+
+**Scenario**: Payment fails during processing
+  Given the user has entered valid payment details
+  When the payment gateway returns a failure
+  Then the system should display a transaction failed message
+  And allow the user to retry with a different payment method
+
+---
