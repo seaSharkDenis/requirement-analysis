@@ -26,3 +26,44 @@ Requirement Analysis is a critical phase in the software development lifecycle (
 3. **Basis for Design and Development** - Provides a solid foundation for designing and developing the system.
 4. **Cost and Time Estimation** - Facilitates accurate estimation of project cost, resources, and time.
 5. **Quality Assurance** - Ensures that the final product meets the specified requirements, leading to higher customer satisfaction.
+
+---
+
+## Key Activities in Requirement Analysis
+
+Each activity in the Requirement Analysis process plays a crucial role in capturing and validating software requirements.
+
+### 1. Requirements Gathering
+
+  - This is the process of identifying the needs, expectations, and constraints of stakeholders for a new or modified system. It serves as the entry point into requirements analysis. It aims to answer questions like:
+    - What does he user want the system to do?
+    - What problem is the system expeted to solve?
+    - What are the constraints or rules that the system must follow?
+    - Who are the users and what are their goals
+  - Techniques used in requirement gathering include:
+    - Interviews
+    - Surveys & questionnaires
+    - Workshops & focus groups
+    - Observation
+    - Document analysis
+   
+### 2. Requirement Elicitation
+
+  - In this activity, there is deeper focus on working out the detailed requirements from stakeholders through direct interaction and exploration.
+  - The goals include capturing detailed, accurate, and complete requirments, clarify expectations and usage scenarios, and identify hidden or implicit needs.
+  - Techniques used include brainstorming, focus groups, and prototyping.
+   
+### 3. Requirement Documentation 
+
+  - This activity involves formalizing the elicited requirments in a clear, organized, and structured format.It ensures that there is a shared understanding between developers, testers, and stakeholders. It also provides a basis for system design, implemntation, and testing.
+  - Items used in this activity include **Software Requirement Specification (SRS)**, **User Stories**, and diagrams such as **Entity-Relationships**.
+  
+### 4. Requirement Analysis and Modeling
+
+  - This is the process of examining requirements for clarity, consistency, completeness, and feasibility.
+  - The aim is to detect and resolve incosistencies, identify functional dependencies and priorities, and translate textual requirements into visual representations.
+  - Techniques used include use case diagrams and Entity-Relationship Diagrams.
+
+### 5. Requirement Validation
+  - This activity ensures that the documented requirements accurately represent the stakeholder's needs and are feasible, testable, and aligned with business objectives.
+  - The goal is to confirm stakholder agreement and approval and verify correctness
